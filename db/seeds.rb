@@ -17,5 +17,5 @@ users_csv.each do |row|
   user.profile = row[4]
   user.occupation = row[5]
   user.position = row[6]
-  user.save
+  puts user.save!
 end
